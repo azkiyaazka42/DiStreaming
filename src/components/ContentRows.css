@@ -99,16 +99,16 @@
 }
 
 /* BACKGROUND IMAGES */
-.bg-1 {background-image: url("./images/img-1.png"); }
-.bg-2 { background-image: url("./images/img-2.png"); }
-.bg-3 { background-image: url("./images/img-3.png"); }
-.bg-4 { background-image: url("./images/img-4.png"); }
-.bg-5 { background-image: url("./images/img-5.png"); }
-.bg-6 { background-image: url("./images/img-6.png"); }
-.bg-7 { background-image: url("./images/img-7.png"); }
-.bg-8 { background-image: url("./images/img-8.png"); }
-.bg-9 { background-image: url("./images/img-9.png"); }
-.bg-10 { background-image: url("./images/img-10.png"); }
+.bg-1 {background-image: url("./images/img1.jpg"); }
+.bg-2 { background-image: url("./images/img2.jpg"); }
+.bg-3 { background-image: url("./images/img3.jpg"); }
+.bg-4 { background-image: url("./images/img4.jpg"); }
+.bg-5 { background-image: url("./images/img5.jpg"); }
+.bg-6 { background-image: url("./images/img6.jpg"); }
+.bg-7 { background-image: url("./images/img7.jpg"); }
+.bg-8 { background-image: url("./images/img8.jpg"); }
+.bg-9 { background-image: url("./images/img9.jpg"); }
+.bg-10 { background-image: url("./images/img10.jpg"); }
 
 @media (max-width: 1000px) {
   .card-container {
