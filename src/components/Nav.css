@@ -1,0 +1,39 @@
+.nav-container {
+  margin: -10px 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.774);
+  backdrop-filter: blur(15px);
+
+  display: none;
+}
+
+.nav-active {
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-active li a {
+  display: block;
+  padding: 20px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.nav-active li a:hover {
+  background-color: #ffcc3548;
+}
+
+.nav-active li a:active {
+  opacity: 75%;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    display: block;
+  }
+}

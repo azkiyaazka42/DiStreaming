@@ -1,0 +1,83 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  height: 54rem;
+}
+
+.hero-bg {
+  background-image: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.8)),
+  url("/images/distreaming.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.hero-text {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.text-large {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    height: 60rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-bg {
+    height: 70%;
+  }
+
+  .hero-text {
+    height: 75%;
+  }
+
+  .text-large {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-bg {
+    height: 60%;
+  }
+
+  .hero-text {
+    height: 70%;
+  }
+
+  .text-large {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .p-large {
+    font-size: 10px;
+  }
+}

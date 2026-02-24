@@ -1,0 +1,115 @@
+.footer {
+  padding: 50px 80px;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rightSide {
+  display: flex;
+  gap: 30px;
+}
+
+.logos {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.logos svg{
+  height: 22px;
+  width: 22px;
+  padding: 5px;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 100%;
+}
+
+.logos svg:hover {
+  background-color: #cba20060;
+  border: 1px solid #735c00;
+  transition: 0.3s ease-in-out;
+}
+
+.logos svg:active {
+  opacity: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-leftSide h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(203, 162, 0);
+  margin-bottom: 15px;
+}
+
+.footer-leftSide p {
+  color: rgb(106, 106, 106);
+  margin-bottom: 5px;
+}
+
+.play-store {
+  margin-left: -5px;
+  height: 25px;
+}
+
+.app-store {
+  height: 25px;
+}
+
+.footer-rightSide {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: white;
+}
+
+.nav-foot h1 {
+  margin-bottom: 15px;
+}
+
+.nav-footer{
+  display: grid;
+  list-style-type: none;
+  gap: 7px;
+}
+
+.nav-footer li a {
+  color: rgb(106, 106, 106);
+  text-decoration: none;
+}
+
+.nav-footer li a:hover {
+  color: rgb(203, 162, 0);
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 1100px) {
+  .footer-up {
+    display: grid;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 30px;
+  }
+
+  .footer-rightSide {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-rightSide {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  .footer-rightSide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
